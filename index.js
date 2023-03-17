@@ -10,6 +10,10 @@ app.get("/",(req,res)=>{
     res.send("base api")
 })
 
+app.get("/saurav",(req,res)=>{
+    res.send("hello saurav")
+})
+
 app.listen(8000,async()=>{
     // try {
     //     await sequelize.authenticate()
